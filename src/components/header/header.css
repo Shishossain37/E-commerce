@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.navbar .log{
+    border: none;
+    color: black;
+    /* background-color: #ccc; */
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+.navbar .cart-logo{
+    margin-right: 10px;
+    font-weight: 700;
+}
+.war{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rosybrown;
+}

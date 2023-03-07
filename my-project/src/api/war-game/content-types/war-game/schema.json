@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "war_games",
+  "info": {
+    "singularName": "war-game",
+    "pluralName": "war-games",
+    "displayName": "war-game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
